@@ -1,0 +1,78 @@
+{
+  "elements":
+  [
+	{ "name": "region", "type": "Select", "caption": "Region",
+	  "options": [
+		{ "label": "Meißen", "value": "1" },
+		{ "label": "Riesa-Großenhain", "value": "2" },
+		{ "label": "Sächsische Schweiz", "value": "3" },
+		{ "label": "Weißeritzkreis", "value": "4" }
+	  ]
+	},
+	
+	{ "name": "area", "type": "Select", "caption": "Gemeinde / Stadt",
+	  "options": [
+		{ "label": "Altenberg", "value": "18" },
+		{ "label": "Bannewitz", "value": "72" },
+		{ "label": "Dipoldiswalde", "value": "158" },
+		{ "label": "Dorfhain", "value": "162" },
+		{ "label": "Freital", "value": "229" },
+		{ "label": "Glashütte", "value": "254" },
+		{ "label": "Hartmannsdorf-Reichenau", "value": "311" },
+		{ "label": "Hermsdorf/E.", "value": "235" },
+		{ "label": "Klingenberg", "value": "347" },
+		{ "label": "Kreischa", "value": "402" },
+		{ "label": "Rabenau", "value": "591" },
+		{ "label": "Tharandt", "value": "739" },
+		{ "label": "Wilsdruff", "value": "789" }
+	  ]
+	},
+		
+	{ "name": "ort", "type": "Select", "caption": "Ort / Ortsteil (optional)",
+	  "options": [
+		{ "label": "OT Birkenhain", "value": "910" },
+		{ "label": "OT Blankenstein", "value": "911" },
+		{ "label": "OT Braunsdorf", "value": "439" },
+		{ "label": "OT Grumbach", "value": "912" },
+		{ "label": "OT Grund", "value": "559" },
+		{ "label": "OT Helbigsdorf", "value": "913" },
+		{ "label": "OT Herzogswalde", "value": "560" },
+		{ "label": "OT Kaufbach", "value": "514" },
+		{ "label": "OT Kesselsdorf", "value": "441" },
+		{ "label": "OT Kleinopitz", "value": "442" },
+		{ "label": "OT Limbach", "value": "915" },
+		{ "label": "OT Mohorn", "value": "561" },
+		{ "label": "OT Oberhermsdorf", "value": "443" },
+		{ "label": "Wilsdruff", "value": "916" }
+	  ]
+	},
+	{ "name": "strasse", "type": "Select", "caption": "Straße",
+	  "options": [
+		{ "label": "Albin-Kaiser-Str.", "value": "38840" },
+		{ "label": "Alte Landstraße", "value": "5832" },
+		{ "label": "Am Gewerbepark", "value": "4142" },
+		{ "label": "Am Kalkofen", "value": "3915" },
+		{ "label": "Am oberen Bach", "value": "3916" },
+		{ "label": "Am unteren Bach", "value": "3917" },
+		{ "label": "Am Wehr", "value": "3918" },
+		{ "label": "Ader Mühle", "value": "3919" },
+		{ "label": "Artur-Kühne-Str.", "value": "3920" },
+		{ "label": "August-Bebel-Str.", "value": "3913" },
+		{ "label": "Bahnhofsring", "value": "3921" },
+		{ "label": "Bahnhofsweg", "value": "5833" },
+		{ "label": "Begersweg", "value": "3922" },
+		{ "label": "Bergstr.", "value": "3923" },
+		{ "label": "Zum Pfiff", "value": "4411" }
+	  ]
+	},
+	{
+        "name": "zeittakt",
+        "type": "ValidationTextBox",
+        "caption": "Update aller x min"
+    }
+  ],
+   "actions":
+  [
+	{ "type": "Button", "label": "Update", "onClick": "ZAOE_Update($id);" }
+  ]
+}

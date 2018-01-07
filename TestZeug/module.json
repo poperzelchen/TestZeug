@@ -1,0 +1,14 @@
+{
+	"id": "{a8389c27-2c36-42d5-801b-f1fc3ce1ad63}",
+	"name": "TestZeug",
+	"type": 0,
+	"vendor": "poperzelchen",
+	"aliases": 
+	[
+		"TestZeug"
+	],	
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "TEST"
+}
